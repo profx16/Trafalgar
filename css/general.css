@@ -5,12 +5,6 @@ html {
     font-size: 10px;
 }
 
-main {
-    background-image: url("../svg/background/apps-bckgrnd.svg");
-    background-repeat: no-repeat;
-    background-position: right top 45%;
-}
-
 .container-xl {
     width: 1217px;
     margin-left: auto;
@@ -239,12 +233,18 @@ header {
 
 .container-apps {
     width: 1365px;
-    margin-top: 229px;
+    padding-top: 229px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.mobile-apps {
+    background-image: url("../svg/background/apps-bckgrnd.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .container-apps h2 {
